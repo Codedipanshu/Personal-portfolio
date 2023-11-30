@@ -223,7 +223,7 @@ const bigProjects = {
       image: require("./assets/images/Todo-list.png"),
       projectName: "ToDo List",
       projectDesc:
-        "Todo List web application having insert and delete functionality with two different lists",
+        "ToDo List web application having insert and delete functionality with two different lists",
       footerLink: [
         {
           name: "Visit Website",
