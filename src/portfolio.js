@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having experties in building Web applications with JavaScript / Reactjs / Nodejs / Express and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/15vVF3Ck2PsNVruGuiKTKNnZ-QppWg10j/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1myb53gw8QQbw2yE5NYIy9Ww1udLh31hP/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
