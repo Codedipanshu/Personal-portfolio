@@ -26,7 +26,7 @@ const greeting = {
     "A passionate Full Stack Software Developer 🚀 having experties in building Web applications with JavaScript / Reactjs / Nodejs / Express and some other cool libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/15vVF3Ck2PsNVruGuiKTKNnZ-QppWg10j/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1kiYwzGl9GL5rkzWL1HcskCQKwJfArhOa/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -47,9 +47,9 @@ const skillsSection = {
   title: "What I do",
   subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Able to develop functional backend for your web applications"),
-    emoji("⚡ Productive Web Applications in normal and MERN Stacks"),
-    emoji("⚡ Having some knowledge Android development ")
+    emoji("⚡ Full-stack development with MERN, TypeScript, React.js, and Hono"),
+    emoji("⚡ Backend systems using Node.js, REST APIs, WebSockets, Redis, and Pub/Sub"),
+    emoji("⚡ Familiar with Git, Docker, and serverless deployments (Cloudflare Workers)")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -97,13 +97,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-java"
     },
     {
-      skillName: "Android Studio",
-      fontAwesomeClassname: "fab fa-android"
-    },
-
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "cloudflare",
+      fontAwesomeClassname: "fab fa-cloudflare"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -118,17 +113,11 @@ const educationInfo = {
       schoolName: "IGNOU",
       logo: require("./assets/images/ignou.png"),
       subHeader: "Bachlor of Computer Applications",
-      duration: "July 2021 - June 2024",
+      duration: "July 2021 - December 2024",
       desc: "Took courses about Software Engineering, Data Structures, Web Development, Web Security, Operating Systems, ...",
       descBullets: [
         "Studying BCA to gain valuable knowledge about Computer Science."
       ]
-    },
-    {
-      schoolName: "Rajasthan University",
-      logo: require("./assets/images/uniraj.png"),
-      subHeader: "Bachlor of Science General",
-      duration: "July 2018 - June 2021"
     }
   ]
 };
@@ -220,18 +209,18 @@ const bigProjects = {
       ]
     },
     {
-      image: require("./assets/images/Todo-list.png"),
-      projectName: "ToDo List",
+      image: require("./assets/images/converzy.jpg"),
+      projectName: "Converzy - OCR & Translation",
       projectDesc:
-        "ToDo List web application having insert and delete functionality with two different lists",
+        "A powerful OCR and translation tool that converts text from images/PDFs, and translates between Hindi and English",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://todo-list-f405.onrender.com/"
+          url: "https://converzy.vercel.app/"
         },
         {
           name: "GitHub Repo",
-          url: "https://github.com/Codedipanshu/ToDo-List"
+          url: "https://github.com/Codedipanshu/Converzy"
         }
       ]
     }
@@ -248,6 +237,18 @@ const achievementSection = {
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
   achievementsCards: [
+    {
+      title: "100xDevs Cohort",
+      subtitle: "Completed hands-on training in full-stack web development with a focus on backend systems, REST APIs, authentication, and databases.",
+      image: require("./assets/images/harkirat.png"),
+      imageAlt: "Harkirat Logo",
+      footerLink: [
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1fNYD83b3_pcVBespfZ1NcgPhKsuwpb6V/view"
+        }
+      ]
+    },
     {
       title: "MERN From Scratch 2023",
       subtitle: "Completed Certifcation from Udemy for MERN Stack Development",
@@ -285,18 +286,6 @@ const achievementSection = {
         }
       ]
     },
-    {
-      title: "Android App Development",
-      subtitle: "Completed Certifcation from Internshala for Android App Development",
-      image: require("./assets/images/internshala.webp"),
-      imageAlt: "Internshala Logo",
-      footerLink: [
-        {
-          name: "Certification",
-          url: "https://trainings.internshala.com/s/v/2942762/bc074d20"
-        }
-      ]
-    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -359,8 +348,7 @@ const podcastSection = {
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
-  subtitle:
-    "Discuss a project or just say hi.",
+  subtitle: "Discuss a project or just say hi.",
   number: "+91-9057546379",
   email_address: "codedipanshu@gmail.com"
 };
